@@ -2,6 +2,8 @@
 
 **Conquiers les territoires. Construis ton mouvement. Remporte l’Élysée.**
 
+[Jouer à la version publiée](https://chaibou1.github.io/cest-a-qui-2027/) · [Code source](https://github.com/chaibou1/cest-a-qui-2027)
+
 MVP de jeu gratuit de stratégie politique fictif, indépendant de PRONO EDGE. Next.js + TypeScript + Tailwind, carte SVG issue de GeoJSON local réel, Supabase Auth/PostgreSQL/RLS. Aucun service payant requis, aucune IA ou paiement intégré.
 
 ## Jouer

@@ -77,7 +77,7 @@ begin
  if a is null then raise exception 'Action inconnue';end if;
  if p_investment is null or p_investment<(cfg->>'minInfluence')::integer or p_investment>(cfg->>'maxInfluence')::integer then raise exception 'Investissement invalide';end if;
  if now()<r.last_action_at+make_interval(secs=>(cfg->>'cooldownSeconds')::integer) then raise exception 'Attendez la fin du délai entre deux campagnes';end if;
- select * into s from public.seasons where phase<>'finished' order by starts_at desc limit 1;
+ select * into s from public.seasons where phase<>'finished' order by starts_at desc limit 1 for share;
  if not found or s.phase<>'expansion' or now()>=s.ends_at then raise exception 'La campagne de cette saison est terminée';end if;
  select * into d from public.departments where code=p_code for update;
  if not found then raise exception 'Territoire inconnu';end if;
