@@ -1,0 +1,2 @@
+:HL["/cest-a-qui-2027/_next/static/chunks/3llhox6tkj0_3.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"departement","param":null,"prefetchHints":4192,"slots":{"children":{"name":"code","param":{"type":"d","key":"70","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"LuQoJhvKIcUH-OZWch2MT"}
